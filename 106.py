@@ -1,0 +1,2 @@
+import len
+help(time)

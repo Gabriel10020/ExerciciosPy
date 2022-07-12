@@ -1,0 +1,7 @@
+frase = str(input('Digite uma frase: ')).upper()
+nvezes = frase.count('A')
+print(f'A letra "A" apareceu {nvezes} vezes na sua frase.')
+posium = frase.find('A')
+print(f'A primeira vez que apareceu a Letra A foi na posição {posium + 1}')
+posifi = frase.find('A', -1)
+print(f'A ultiam vez foi na posição {posifi + 1}')
